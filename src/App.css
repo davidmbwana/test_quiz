@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow-x: hidden; /* Hide horizontal scrollbar on body */
 }
 
 .container {
@@ -19,6 +20,9 @@ body {
   max-width: 600px;
   width: 100%;
   margin: 0 auto; /* Center horizontally */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal scrolling */
+  box-sizing: border-box; /* Include padding in element's total width and height */
 }
 
 h1 {
@@ -76,7 +80,6 @@ button:focus {
 @media (max-width: 600px) {
   .container {
     padding: 20px;
-    box-sizing: border-box;
     margin: 0 10px; /* Add horizontal padding */
   }
 }
