@@ -1,0 +1,18 @@
+[
+    {
+      "question": "What is the capital of Kenya?",
+      "answers": ["Nairobi", "Mombasa", "Kisumu", "Eldoret"],
+      "correctAnswer": "Nairobi"
+    },
+    {
+      "question": "Which currency is used in Kenya?",
+      "answers": ["Shilling", "Dollar", "Euro", "Pound"],
+      "correctAnswer": "Shilling"
+    },
+    {
+      "question": "What is the largest city in Kenya by population?",
+      "answers": ["Nairobi", "Mombasa", "Kisumu", "Eldoret"],
+      "correctAnswer": "Nairobi"
+    }
+  ]
+  
